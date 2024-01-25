@@ -1,6 +1,6 @@
 #include<stdio.h>
 #define MAX_ROW 100
-#define MAX_COLUMN 100
+#define MAX_COLUMN 10
 
 void print_matrix(void);
 
@@ -16,10 +16,11 @@ void print_matrix(){
     int j = 0;      //initializes iterator row
     int a = 0;
     
-    for(i = 0; i < MAX_COLUMN; i++)
+    for(i = 0; i < MAX_ROW; i++)
     {
-        for(j = 0; j < MAX_ROW; j++){
-            printf("%2d", a++);
+        for(j = 0; j < MAX_COLUMN; j++){
+            printf("%4d", a++);
         }
+        printf("\n");
     }
 }
