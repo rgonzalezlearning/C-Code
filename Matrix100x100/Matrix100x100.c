@@ -2,7 +2,6 @@
 #define MAX_ROW 100
 #define MAX_COLUMN 100
 
-
 void print_matrix(void);
 
 int main()
